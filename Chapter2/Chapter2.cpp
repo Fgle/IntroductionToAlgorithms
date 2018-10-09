@@ -14,3 +14,14 @@ void InsertionSort(int *A, int length){
         A[j+1] = key;
     }
 }
+void Chapter2_1_2(int *A, int length){
+    for (int i = 1; i < length; i++) {
+        int key = A[i];
+        int j = i - 1;
+        while (j >= 0 && A[j] < key){
+            A[j + 1] = A[j];
+            j--;
+        }
+        A[j+1] = key;
+    }
+}

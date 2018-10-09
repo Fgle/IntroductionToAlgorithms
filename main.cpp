@@ -18,7 +18,7 @@ int main(int argc, char *argv[]) {
         item = *iter++;
     }
     Print(test, MaxSize);
-    InsertionSort(test, MaxSize);
+    Chapter2_1_2(test, MaxSize);
     Print(test, MaxSize);
     return 0;
 }
