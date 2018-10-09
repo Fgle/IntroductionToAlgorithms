@@ -4,9 +4,6 @@
 CMakeFiles/IntrodutionToAlgorithms.dir/Chapter2/InsertionSort.cpp.o: ../Chapter2/InsertionSort.cpp
 CMakeFiles/IntrodutionToAlgorithms.dir/Chapter2/InsertionSort.cpp.o: ../Chapter2/InsertionSort.h
 
-CMakeFiles/IntrodutionToAlgorithms.dir/Chapter2/Test.cpp.o: ../Chapter2/InsertionSort.h
-CMakeFiles/IntrodutionToAlgorithms.dir/Chapter2/Test.cpp.o: ../Chapter2/Test.cpp
-
 CMakeFiles/IntrodutionToAlgorithms.dir/main.cpp.o: ../Chapter2/InsertionSort.h
 CMakeFiles/IntrodutionToAlgorithms.dir/main.cpp.o: ../main.cpp
 

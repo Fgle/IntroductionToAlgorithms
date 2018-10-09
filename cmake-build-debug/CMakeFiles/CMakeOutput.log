@@ -28,28 +28,28 @@ The CXX compiler identification is GNU, found in "/home/fgle/Programs/Algorithm/
 Determining if the C compiler works passed with the following output:
 Change Dir: /home/fgle/Programs/Algorithm/DataStructures/IntrodutionToAlgorithms/cmake-build-debug/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_358f0/fast"
-/usr/bin/make -f CMakeFiles/cmTC_358f0.dir/build.make CMakeFiles/cmTC_358f0.dir/build
+Run Build Command:"/usr/bin/make" "cmTC_e31ad/fast"
+/usr/bin/make -f CMakeFiles/cmTC_e31ad.dir/build.make CMakeFiles/cmTC_e31ad.dir/build
 make[1]: 进入目录“/home/fgle/Programs/Algorithm/DataStructures/IntrodutionToAlgorithms/cmake-build-debug/CMakeFiles/CMakeTmp”
-Building C object CMakeFiles/cmTC_358f0.dir/testCCompiler.c.o
-/usr/bin/cc    -o CMakeFiles/cmTC_358f0.dir/testCCompiler.c.o   -c /home/fgle/Programs/Algorithm/DataStructures/IntrodutionToAlgorithms/cmake-build-debug/CMakeFiles/CMakeTmp/testCCompiler.c
-Linking C executable cmTC_358f0
-/opt/clion/bin/cmake/linux/bin/cmake -E cmake_link_script CMakeFiles/cmTC_358f0.dir/link.txt --verbose=1
-/usr/bin/cc      CMakeFiles/cmTC_358f0.dir/testCCompiler.c.o  -o cmTC_358f0 
+Building C object CMakeFiles/cmTC_e31ad.dir/testCCompiler.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_e31ad.dir/testCCompiler.c.o   -c /home/fgle/Programs/Algorithm/DataStructures/IntrodutionToAlgorithms/cmake-build-debug/CMakeFiles/CMakeTmp/testCCompiler.c
+Linking C executable cmTC_e31ad
+/opt/clion/bin/cmake/linux/bin/cmake -E cmake_link_script CMakeFiles/cmTC_e31ad.dir/link.txt --verbose=1
+/usr/bin/cc      -rdynamic CMakeFiles/cmTC_e31ad.dir/testCCompiler.c.o  -o cmTC_e31ad 
 make[1]: 离开目录“/home/fgle/Programs/Algorithm/DataStructures/IntrodutionToAlgorithms/cmake-build-debug/CMakeFiles/CMakeTmp”
 
 
 Detecting C compiler ABI info compiled with the following output:
 Change Dir: /home/fgle/Programs/Algorithm/DataStructures/IntrodutionToAlgorithms/cmake-build-debug/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_8f348/fast"
-/usr/bin/make -f CMakeFiles/cmTC_8f348.dir/build.make CMakeFiles/cmTC_8f348.dir/build
+Run Build Command:"/usr/bin/make" "cmTC_1567f/fast"
+/usr/bin/make -f CMakeFiles/cmTC_1567f.dir/build.make CMakeFiles/cmTC_1567f.dir/build
 make[1]: 进入目录“/home/fgle/Programs/Algorithm/DataStructures/IntrodutionToAlgorithms/cmake-build-debug/CMakeFiles/CMakeTmp”
-Building C object CMakeFiles/cmTC_8f348.dir/CMakeCCompilerABI.c.o
-/usr/bin/cc    -o CMakeFiles/cmTC_8f348.dir/CMakeCCompilerABI.c.o   -c /opt/clion/bin/cmake/linux/share/cmake-3.12/Modules/CMakeCCompilerABI.c
-Linking C executable cmTC_8f348
-/opt/clion/bin/cmake/linux/bin/cmake -E cmake_link_script CMakeFiles/cmTC_8f348.dir/link.txt --verbose=1
-/usr/bin/cc     -v CMakeFiles/cmTC_8f348.dir/CMakeCCompilerABI.c.o  -o cmTC_8f348 
+Building C object CMakeFiles/cmTC_1567f.dir/CMakeCCompilerABI.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_1567f.dir/CMakeCCompilerABI.c.o   -c /opt/clion/bin/cmake/linux/share/cmake-3.12/Modules/CMakeCCompilerABI.c
+Linking C executable cmTC_1567f
+/opt/clion/bin/cmake/linux/bin/cmake -E cmake_link_script CMakeFiles/cmTC_1567f.dir/link.txt --verbose=1
+/usr/bin/cc     -v -rdynamic CMakeFiles/cmTC_1567f.dir/CMakeCCompilerABI.c.o  -o cmTC_1567f 
 使用内建 specs。
 COLLECT_GCC=/usr/bin/cc
 COLLECT_LTO_WRAPPER=/usr/lib/gcc/x86_64-pc-linux-gnu/8.2.1/lto-wrapper
@@ -59,9 +59,9 @@ COLLECT_LTO_WRAPPER=/usr/lib/gcc/x86_64-pc-linux-gnu/8.2.1/lto-wrapper
 gcc 版本 8.2.1 20180831 (GCC) 
 COMPILER_PATH=/usr/lib/gcc/x86_64-pc-linux-gnu/8.2.1/:/usr/lib/gcc/x86_64-pc-linux-gnu/8.2.1/:/usr/lib/gcc/x86_64-pc-linux-gnu/:/usr/lib/gcc/x86_64-pc-linux-gnu/8.2.1/:/usr/lib/gcc/x86_64-pc-linux-gnu/
 LIBRARY_PATH=/usr/lib/gcc/x86_64-pc-linux-gnu/8.2.1/:/usr/lib/gcc/x86_64-pc-linux-gnu/8.2.1/../../../../lib/:/lib/../lib/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-pc-linux-gnu/8.2.1/../../../:/lib/:/usr/lib/
-COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_8f348' '-mtune=generic' '-march=x86-64'
- /usr/lib/gcc/x86_64-pc-linux-gnu/8.2.1/collect2 -plugin /usr/lib/gcc/x86_64-pc-linux-gnu/8.2.1/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-pc-linux-gnu/8.2.1/lto-wrapper -plugin-opt=-fresolution=/tmp/cc1HIAJd.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --build-id --eh-frame-hdr --hash-style=gnu -m elf_x86_64 -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -o cmTC_8f348 /usr/lib/gcc/x86_64-pc-linux-gnu/8.2.1/../../../../lib/Scrt1.o /usr/lib/gcc/x86_64-pc-linux-gnu/8.2.1/../../../../lib/crti.o /usr/lib/gcc/x86_64-pc-linux-gnu/8.2.1/crtbeginS.o -L/usr/lib/gcc/x86_64-pc-linux-gnu/8.2.1 -L/usr/lib/gcc/x86_64-pc-linux-gnu/8.2.1/../../../../lib -L/lib/../lib -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-pc-linux-gnu/8.2.1/../../.. CMakeFiles/cmTC_8f348.dir/CMakeCCompilerABI.c.o -lgcc --as-needed -lgcc_s --no-as-needed -lc -lgcc --as-needed -lgcc_s --no-as-needed /usr/lib/gcc/x86_64-pc-linux-gnu/8.2.1/crtendS.o /usr/lib/gcc/x86_64-pc-linux-gnu/8.2.1/../../../../lib/crtn.o
-COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_8f348' '-mtune=generic' '-march=x86-64'
+COLLECT_GCC_OPTIONS='-v' '-rdynamic' '-o' 'cmTC_1567f' '-mtune=generic' '-march=x86-64'
+ /usr/lib/gcc/x86_64-pc-linux-gnu/8.2.1/collect2 -plugin /usr/lib/gcc/x86_64-pc-linux-gnu/8.2.1/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-pc-linux-gnu/8.2.1/lto-wrapper -plugin-opt=-fresolution=/tmp/ccy5ZwmN.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --build-id --eh-frame-hdr --hash-style=gnu -m elf_x86_64 -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -o cmTC_1567f /usr/lib/gcc/x86_64-pc-linux-gnu/8.2.1/../../../../lib/Scrt1.o /usr/lib/gcc/x86_64-pc-linux-gnu/8.2.1/../../../../lib/crti.o /usr/lib/gcc/x86_64-pc-linux-gnu/8.2.1/crtbeginS.o -L/usr/lib/gcc/x86_64-pc-linux-gnu/8.2.1 -L/usr/lib/gcc/x86_64-pc-linux-gnu/8.2.1/../../../../lib -L/lib/../lib -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-pc-linux-gnu/8.2.1/../../.. CMakeFiles/cmTC_1567f.dir/CMakeCCompilerABI.c.o -lgcc --as-needed -lgcc_s --no-as-needed -lc -lgcc --as-needed -lgcc_s --no-as-needed /usr/lib/gcc/x86_64-pc-linux-gnu/8.2.1/crtendS.o /usr/lib/gcc/x86_64-pc-linux-gnu/8.2.1/../../../../lib/crtn.o
+COLLECT_GCC_OPTIONS='-v' '-rdynamic' '-o' 'cmTC_1567f' '-mtune=generic' '-march=x86-64'
 make[1]: 离开目录“/home/fgle/Programs/Algorithm/DataStructures/IntrodutionToAlgorithms/cmake-build-debug/CMakeFiles/CMakeTmp”
 
 
@@ -69,14 +69,14 @@ Parsed C implicit link information from above output:
   link line regex: [^( *|.*[/\])(ld|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\]+-)?ld|collect2)[^/\]*( |$)]
   ignore line: [Change Dir: /home/fgle/Programs/Algorithm/DataStructures/IntrodutionToAlgorithms/cmake-build-debug/CMakeFiles/CMakeTmp]
   ignore line: []
-  ignore line: [Run Build Command:"/usr/bin/make" "cmTC_8f348/fast"]
-  ignore line: [/usr/bin/make -f CMakeFiles/cmTC_8f348.dir/build.make CMakeFiles/cmTC_8f348.dir/build]
+  ignore line: [Run Build Command:"/usr/bin/make" "cmTC_1567f/fast"]
+  ignore line: [/usr/bin/make -f CMakeFiles/cmTC_1567f.dir/build.make CMakeFiles/cmTC_1567f.dir/build]
   ignore line: [make[1]: 进入目录“/home/fgle/Programs/Algorithm/DataStructures/IntrodutionToAlgorithms/cmake-build-debug/CMakeFiles/CMakeTmp”]
-  ignore line: [Building C object CMakeFiles/cmTC_8f348.dir/CMakeCCompilerABI.c.o]
-  ignore line: [/usr/bin/cc    -o CMakeFiles/cmTC_8f348.dir/CMakeCCompilerABI.c.o   -c /opt/clion/bin/cmake/linux/share/cmake-3.12/Modules/CMakeCCompilerABI.c]
-  ignore line: [Linking C executable cmTC_8f348]
-  ignore line: [/opt/clion/bin/cmake/linux/bin/cmake -E cmake_link_script CMakeFiles/cmTC_8f348.dir/link.txt --verbose=1]
-  ignore line: [/usr/bin/cc     -v CMakeFiles/cmTC_8f348.dir/CMakeCCompilerABI.c.o  -o cmTC_8f348 ]
+  ignore line: [Building C object CMakeFiles/cmTC_1567f.dir/CMakeCCompilerABI.c.o]
+  ignore line: [/usr/bin/cc    -o CMakeFiles/cmTC_1567f.dir/CMakeCCompilerABI.c.o   -c /opt/clion/bin/cmake/linux/share/cmake-3.12/Modules/CMakeCCompilerABI.c]
+  ignore line: [Linking C executable cmTC_1567f]
+  ignore line: [/opt/clion/bin/cmake/linux/bin/cmake -E cmake_link_script CMakeFiles/cmTC_1567f.dir/link.txt --verbose=1]
+  ignore line: [/usr/bin/cc     -v -rdynamic CMakeFiles/cmTC_1567f.dir/CMakeCCompilerABI.c.o  -o cmTC_1567f ]
   ignore line: [使用内建 specs。]
   ignore line: [COLLECT_GCC=/usr/bin/cc]
   ignore line: [COLLECT_LTO_WRAPPER=/usr/lib/gcc/x86_64-pc-linux-gnu/8.2.1/lto-wrapper]
@@ -86,13 +86,13 @@ Parsed C implicit link information from above output:
   ignore line: [gcc 版本 8.2.1 20180831 (GCC) ]
   ignore line: [COMPILER_PATH=/usr/lib/gcc/x86_64-pc-linux-gnu/8.2.1/:/usr/lib/gcc/x86_64-pc-linux-gnu/8.2.1/:/usr/lib/gcc/x86_64-pc-linux-gnu/:/usr/lib/gcc/x86_64-pc-linux-gnu/8.2.1/:/usr/lib/gcc/x86_64-pc-linux-gnu/]
   ignore line: [LIBRARY_PATH=/usr/lib/gcc/x86_64-pc-linux-gnu/8.2.1/:/usr/lib/gcc/x86_64-pc-linux-gnu/8.2.1/../../../../lib/:/lib/../lib/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-pc-linux-gnu/8.2.1/../../../:/lib/:/usr/lib/]
-  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_8f348' '-mtune=generic' '-march=x86-64']
-  link line: [ /usr/lib/gcc/x86_64-pc-linux-gnu/8.2.1/collect2 -plugin /usr/lib/gcc/x86_64-pc-linux-gnu/8.2.1/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-pc-linux-gnu/8.2.1/lto-wrapper -plugin-opt=-fresolution=/tmp/cc1HIAJd.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --build-id --eh-frame-hdr --hash-style=gnu -m elf_x86_64 -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -o cmTC_8f348 /usr/lib/gcc/x86_64-pc-linux-gnu/8.2.1/../../../../lib/Scrt1.o /usr/lib/gcc/x86_64-pc-linux-gnu/8.2.1/../../../../lib/crti.o /usr/lib/gcc/x86_64-pc-linux-gnu/8.2.1/crtbeginS.o -L/usr/lib/gcc/x86_64-pc-linux-gnu/8.2.1 -L/usr/lib/gcc/x86_64-pc-linux-gnu/8.2.1/../../../../lib -L/lib/../lib -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-pc-linux-gnu/8.2.1/../../.. CMakeFiles/cmTC_8f348.dir/CMakeCCompilerABI.c.o -lgcc --as-needed -lgcc_s --no-as-needed -lc -lgcc --as-needed -lgcc_s --no-as-needed /usr/lib/gcc/x86_64-pc-linux-gnu/8.2.1/crtendS.o /usr/lib/gcc/x86_64-pc-linux-gnu/8.2.1/../../../../lib/crtn.o]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-rdynamic' '-o' 'cmTC_1567f' '-mtune=generic' '-march=x86-64']
+  link line: [ /usr/lib/gcc/x86_64-pc-linux-gnu/8.2.1/collect2 -plugin /usr/lib/gcc/x86_64-pc-linux-gnu/8.2.1/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-pc-linux-gnu/8.2.1/lto-wrapper -plugin-opt=-fresolution=/tmp/ccy5ZwmN.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --build-id --eh-frame-hdr --hash-style=gnu -m elf_x86_64 -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -o cmTC_1567f /usr/lib/gcc/x86_64-pc-linux-gnu/8.2.1/../../../../lib/Scrt1.o /usr/lib/gcc/x86_64-pc-linux-gnu/8.2.1/../../../../lib/crti.o /usr/lib/gcc/x86_64-pc-linux-gnu/8.2.1/crtbeginS.o -L/usr/lib/gcc/x86_64-pc-linux-gnu/8.2.1 -L/usr/lib/gcc/x86_64-pc-linux-gnu/8.2.1/../../../../lib -L/lib/../lib -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-pc-linux-gnu/8.2.1/../../.. CMakeFiles/cmTC_1567f.dir/CMakeCCompilerABI.c.o -lgcc --as-needed -lgcc_s --no-as-needed -lc -lgcc --as-needed -lgcc_s --no-as-needed /usr/lib/gcc/x86_64-pc-linux-gnu/8.2.1/crtendS.o /usr/lib/gcc/x86_64-pc-linux-gnu/8.2.1/../../../../lib/crtn.o]
     arg [/usr/lib/gcc/x86_64-pc-linux-gnu/8.2.1/collect2] ==> ignore
     arg [-plugin] ==> ignore
     arg [/usr/lib/gcc/x86_64-pc-linux-gnu/8.2.1/liblto_plugin.so] ==> ignore
     arg [-plugin-opt=/usr/lib/gcc/x86_64-pc-linux-gnu/8.2.1/lto-wrapper] ==> ignore
-    arg [-plugin-opt=-fresolution=/tmp/cc1HIAJd.res] ==> ignore
+    arg [-plugin-opt=-fresolution=/tmp/ccy5ZwmN.res] ==> ignore
     arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
     arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
     arg [-plugin-opt=-pass-through=-lc] ==> ignore
@@ -103,11 +103,12 @@ Parsed C implicit link information from above output:
     arg [--hash-style=gnu] ==> ignore
     arg [-m] ==> ignore
     arg [elf_x86_64] ==> ignore
+    arg [-export-dynamic] ==> ignore
     arg [-dynamic-linker] ==> ignore
     arg [/lib64/ld-linux-x86-64.so.2] ==> ignore
     arg [-pie] ==> ignore
     arg [-o] ==> ignore
-    arg [cmTC_8f348] ==> ignore
+    arg [cmTC_1567f] ==> ignore
     arg [/usr/lib/gcc/x86_64-pc-linux-gnu/8.2.1/../../../../lib/Scrt1.o] ==> ignore
     arg [/usr/lib/gcc/x86_64-pc-linux-gnu/8.2.1/../../../../lib/crti.o] ==> ignore
     arg [/usr/lib/gcc/x86_64-pc-linux-gnu/8.2.1/crtbeginS.o] ==> ignore
@@ -116,7 +117,7 @@ Parsed C implicit link information from above output:
     arg [-L/lib/../lib] ==> dir [/lib/../lib]
     arg [-L/usr/lib/../lib] ==> dir [/usr/lib/../lib]
     arg [-L/usr/lib/gcc/x86_64-pc-linux-gnu/8.2.1/../../..] ==> dir [/usr/lib/gcc/x86_64-pc-linux-gnu/8.2.1/../../..]
-    arg [CMakeFiles/cmTC_8f348.dir/CMakeCCompilerABI.c.o] ==> ignore
+    arg [CMakeFiles/cmTC_1567f.dir/CMakeCCompilerABI.c.o] ==> ignore
     arg [-lgcc] ==> lib [gcc]
     arg [--as-needed] ==> ignore
     arg [-lgcc_s] ==> lib [gcc_s]
@@ -143,14 +144,14 @@ Parsed C implicit link information from above output:
 Detecting C [-std=c11] compiler features compiled with the following output:
 Change Dir: /home/fgle/Programs/Algorithm/DataStructures/IntrodutionToAlgorithms/cmake-build-debug/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_8e21b/fast"
-/usr/bin/make -f CMakeFiles/cmTC_8e21b.dir/build.make CMakeFiles/cmTC_8e21b.dir/build
+Run Build Command:"/usr/bin/make" "cmTC_a8bf3/fast"
+/usr/bin/make -f CMakeFiles/cmTC_a8bf3.dir/build.make CMakeFiles/cmTC_a8bf3.dir/build
 make[1]: 进入目录“/home/fgle/Programs/Algorithm/DataStructures/IntrodutionToAlgorithms/cmake-build-debug/CMakeFiles/CMakeTmp”
-Building C object CMakeFiles/cmTC_8e21b.dir/feature_tests.c.o
-/usr/bin/cc   -std=c11 -o CMakeFiles/cmTC_8e21b.dir/feature_tests.c.o   -c /home/fgle/Programs/Algorithm/DataStructures/IntrodutionToAlgorithms/cmake-build-debug/CMakeFiles/feature_tests.c
-Linking C executable cmTC_8e21b
-/opt/clion/bin/cmake/linux/bin/cmake -E cmake_link_script CMakeFiles/cmTC_8e21b.dir/link.txt --verbose=1
-/usr/bin/cc      CMakeFiles/cmTC_8e21b.dir/feature_tests.c.o  -o cmTC_8e21b 
+Building C object CMakeFiles/cmTC_a8bf3.dir/feature_tests.c.o
+/usr/bin/cc   -std=c11 -o CMakeFiles/cmTC_a8bf3.dir/feature_tests.c.o   -c /home/fgle/Programs/Algorithm/DataStructures/IntrodutionToAlgorithms/cmake-build-debug/CMakeFiles/feature_tests.c
+Linking C executable cmTC_a8bf3
+/opt/clion/bin/cmake/linux/bin/cmake -E cmake_link_script CMakeFiles/cmTC_a8bf3.dir/link.txt --verbose=1
+/usr/bin/cc      -rdynamic CMakeFiles/cmTC_a8bf3.dir/feature_tests.c.o  -o cmTC_a8bf3 
 make[1]: 离开目录“/home/fgle/Programs/Algorithm/DataStructures/IntrodutionToAlgorithms/cmake-build-debug/CMakeFiles/CMakeTmp”
 
 
@@ -163,14 +164,14 @@ make[1]: 离开目录“/home/fgle/Programs/Algorithm/DataStructures/Introdution
 Detecting C [-std=c99] compiler features compiled with the following output:
 Change Dir: /home/fgle/Programs/Algorithm/DataStructures/IntrodutionToAlgorithms/cmake-build-debug/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_fbc79/fast"
-/usr/bin/make -f CMakeFiles/cmTC_fbc79.dir/build.make CMakeFiles/cmTC_fbc79.dir/build
+Run Build Command:"/usr/bin/make" "cmTC_d1555/fast"
+/usr/bin/make -f CMakeFiles/cmTC_d1555.dir/build.make CMakeFiles/cmTC_d1555.dir/build
 make[1]: 进入目录“/home/fgle/Programs/Algorithm/DataStructures/IntrodutionToAlgorithms/cmake-build-debug/CMakeFiles/CMakeTmp”
-Building C object CMakeFiles/cmTC_fbc79.dir/feature_tests.c.o
-/usr/bin/cc   -std=c99 -o CMakeFiles/cmTC_fbc79.dir/feature_tests.c.o   -c /home/fgle/Programs/Algorithm/DataStructures/IntrodutionToAlgorithms/cmake-build-debug/CMakeFiles/feature_tests.c
-Linking C executable cmTC_fbc79
-/opt/clion/bin/cmake/linux/bin/cmake -E cmake_link_script CMakeFiles/cmTC_fbc79.dir/link.txt --verbose=1
-/usr/bin/cc      CMakeFiles/cmTC_fbc79.dir/feature_tests.c.o  -o cmTC_fbc79 
+Building C object CMakeFiles/cmTC_d1555.dir/feature_tests.c.o
+/usr/bin/cc   -std=c99 -o CMakeFiles/cmTC_d1555.dir/feature_tests.c.o   -c /home/fgle/Programs/Algorithm/DataStructures/IntrodutionToAlgorithms/cmake-build-debug/CMakeFiles/feature_tests.c
+Linking C executable cmTC_d1555
+/opt/clion/bin/cmake/linux/bin/cmake -E cmake_link_script CMakeFiles/cmTC_d1555.dir/link.txt --verbose=1
+/usr/bin/cc      -rdynamic CMakeFiles/cmTC_d1555.dir/feature_tests.c.o  -o cmTC_d1555 
 make[1]: 离开目录“/home/fgle/Programs/Algorithm/DataStructures/IntrodutionToAlgorithms/cmake-build-debug/CMakeFiles/CMakeTmp”
 
 
@@ -183,14 +184,14 @@ make[1]: 离开目录“/home/fgle/Programs/Algorithm/DataStructures/Introdution
 Detecting C [-std=c90] compiler features compiled with the following output:
 Change Dir: /home/fgle/Programs/Algorithm/DataStructures/IntrodutionToAlgorithms/cmake-build-debug/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_72139/fast"
-/usr/bin/make -f CMakeFiles/cmTC_72139.dir/build.make CMakeFiles/cmTC_72139.dir/build
+Run Build Command:"/usr/bin/make" "cmTC_f9171/fast"
+/usr/bin/make -f CMakeFiles/cmTC_f9171.dir/build.make CMakeFiles/cmTC_f9171.dir/build
 make[1]: 进入目录“/home/fgle/Programs/Algorithm/DataStructures/IntrodutionToAlgorithms/cmake-build-debug/CMakeFiles/CMakeTmp”
-Building C object CMakeFiles/cmTC_72139.dir/feature_tests.c.o
-/usr/bin/cc   -std=c90 -o CMakeFiles/cmTC_72139.dir/feature_tests.c.o   -c /home/fgle/Programs/Algorithm/DataStructures/IntrodutionToAlgorithms/cmake-build-debug/CMakeFiles/feature_tests.c
-Linking C executable cmTC_72139
-/opt/clion/bin/cmake/linux/bin/cmake -E cmake_link_script CMakeFiles/cmTC_72139.dir/link.txt --verbose=1
-/usr/bin/cc      CMakeFiles/cmTC_72139.dir/feature_tests.c.o  -o cmTC_72139 
+Building C object CMakeFiles/cmTC_f9171.dir/feature_tests.c.o
+/usr/bin/cc   -std=c90 -o CMakeFiles/cmTC_f9171.dir/feature_tests.c.o   -c /home/fgle/Programs/Algorithm/DataStructures/IntrodutionToAlgorithms/cmake-build-debug/CMakeFiles/feature_tests.c
+Linking C executable cmTC_f9171
+/opt/clion/bin/cmake/linux/bin/cmake -E cmake_link_script CMakeFiles/cmTC_f9171.dir/link.txt --verbose=1
+/usr/bin/cc      -rdynamic CMakeFiles/cmTC_f9171.dir/feature_tests.c.o  -o cmTC_f9171 
 make[1]: 离开目录“/home/fgle/Programs/Algorithm/DataStructures/IntrodutionToAlgorithms/cmake-build-debug/CMakeFiles/CMakeTmp”
 
 
@@ -201,28 +202,28 @@ make[1]: 离开目录“/home/fgle/Programs/Algorithm/DataStructures/Introdution
 Determining if the CXX compiler works passed with the following output:
 Change Dir: /home/fgle/Programs/Algorithm/DataStructures/IntrodutionToAlgorithms/cmake-build-debug/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_df5a5/fast"
-/usr/bin/make -f CMakeFiles/cmTC_df5a5.dir/build.make CMakeFiles/cmTC_df5a5.dir/build
+Run Build Command:"/usr/bin/make" "cmTC_f15da/fast"
+/usr/bin/make -f CMakeFiles/cmTC_f15da.dir/build.make CMakeFiles/cmTC_f15da.dir/build
 make[1]: 进入目录“/home/fgle/Programs/Algorithm/DataStructures/IntrodutionToAlgorithms/cmake-build-debug/CMakeFiles/CMakeTmp”
-Building CXX object CMakeFiles/cmTC_df5a5.dir/testCXXCompiler.cxx.o
-/usr/bin/c++     -o CMakeFiles/cmTC_df5a5.dir/testCXXCompiler.cxx.o -c /home/fgle/Programs/Algorithm/DataStructures/IntrodutionToAlgorithms/cmake-build-debug/CMakeFiles/CMakeTmp/testCXXCompiler.cxx
-Linking CXX executable cmTC_df5a5
-/opt/clion/bin/cmake/linux/bin/cmake -E cmake_link_script CMakeFiles/cmTC_df5a5.dir/link.txt --verbose=1
-/usr/bin/c++       CMakeFiles/cmTC_df5a5.dir/testCXXCompiler.cxx.o  -o cmTC_df5a5 
+Building CXX object CMakeFiles/cmTC_f15da.dir/testCXXCompiler.cxx.o
+/usr/bin/c++     -o CMakeFiles/cmTC_f15da.dir/testCXXCompiler.cxx.o -c /home/fgle/Programs/Algorithm/DataStructures/IntrodutionToAlgorithms/cmake-build-debug/CMakeFiles/CMakeTmp/testCXXCompiler.cxx
+Linking CXX executable cmTC_f15da
+/opt/clion/bin/cmake/linux/bin/cmake -E cmake_link_script CMakeFiles/cmTC_f15da.dir/link.txt --verbose=1
+/usr/bin/c++       -rdynamic CMakeFiles/cmTC_f15da.dir/testCXXCompiler.cxx.o  -o cmTC_f15da 
 make[1]: 离开目录“/home/fgle/Programs/Algorithm/DataStructures/IntrodutionToAlgorithms/cmake-build-debug/CMakeFiles/CMakeTmp”
 
 
 Detecting CXX compiler ABI info compiled with the following output:
 Change Dir: /home/fgle/Programs/Algorithm/DataStructures/IntrodutionToAlgorithms/cmake-build-debug/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_f7739/fast"
-/usr/bin/make -f CMakeFiles/cmTC_f7739.dir/build.make CMakeFiles/cmTC_f7739.dir/build
+Run Build Command:"/usr/bin/make" "cmTC_02052/fast"
+/usr/bin/make -f CMakeFiles/cmTC_02052.dir/build.make CMakeFiles/cmTC_02052.dir/build
 make[1]: 进入目录“/home/fgle/Programs/Algorithm/DataStructures/IntrodutionToAlgorithms/cmake-build-debug/CMakeFiles/CMakeTmp”
-Building CXX object CMakeFiles/cmTC_f7739.dir/CMakeCXXCompilerABI.cpp.o
-/usr/bin/c++     -o CMakeFiles/cmTC_f7739.dir/CMakeCXXCompilerABI.cpp.o -c /opt/clion/bin/cmake/linux/share/cmake-3.12/Modules/CMakeCXXCompilerABI.cpp
-Linking CXX executable cmTC_f7739
-/opt/clion/bin/cmake/linux/bin/cmake -E cmake_link_script CMakeFiles/cmTC_f7739.dir/link.txt --verbose=1
-/usr/bin/c++      -v CMakeFiles/cmTC_f7739.dir/CMakeCXXCompilerABI.cpp.o  -o cmTC_f7739 
+Building CXX object CMakeFiles/cmTC_02052.dir/CMakeCXXCompilerABI.cpp.o
+/usr/bin/c++     -o CMakeFiles/cmTC_02052.dir/CMakeCXXCompilerABI.cpp.o -c /opt/clion/bin/cmake/linux/share/cmake-3.12/Modules/CMakeCXXCompilerABI.cpp
+Linking CXX executable cmTC_02052
+/opt/clion/bin/cmake/linux/bin/cmake -E cmake_link_script CMakeFiles/cmTC_02052.dir/link.txt --verbose=1
+/usr/bin/c++      -v -rdynamic CMakeFiles/cmTC_02052.dir/CMakeCXXCompilerABI.cpp.o  -o cmTC_02052 
 使用内建 specs。
 COLLECT_GCC=/usr/bin/c++
 COLLECT_LTO_WRAPPER=/usr/lib/gcc/x86_64-pc-linux-gnu/8.2.1/lto-wrapper
@@ -232,9 +233,9 @@ COLLECT_LTO_WRAPPER=/usr/lib/gcc/x86_64-pc-linux-gnu/8.2.1/lto-wrapper
 gcc 版本 8.2.1 20180831 (GCC) 
 COMPILER_PATH=/usr/lib/gcc/x86_64-pc-linux-gnu/8.2.1/:/usr/lib/gcc/x86_64-pc-linux-gnu/8.2.1/:/usr/lib/gcc/x86_64-pc-linux-gnu/:/usr/lib/gcc/x86_64-pc-linux-gnu/8.2.1/:/usr/lib/gcc/x86_64-pc-linux-gnu/
 LIBRARY_PATH=/usr/lib/gcc/x86_64-pc-linux-gnu/8.2.1/:/usr/lib/gcc/x86_64-pc-linux-gnu/8.2.1/../../../../lib/:/lib/../lib/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-pc-linux-gnu/8.2.1/../../../:/lib/:/usr/lib/
-COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_f7739' '-shared-libgcc' '-mtune=generic' '-march=x86-64'
- /usr/lib/gcc/x86_64-pc-linux-gnu/8.2.1/collect2 -plugin /usr/lib/gcc/x86_64-pc-linux-gnu/8.2.1/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-pc-linux-gnu/8.2.1/lto-wrapper -plugin-opt=-fresolution=/tmp/ccHkcHZ6.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --build-id --eh-frame-hdr --hash-style=gnu -m elf_x86_64 -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -o cmTC_f7739 /usr/lib/gcc/x86_64-pc-linux-gnu/8.2.1/../../../../lib/Scrt1.o /usr/lib/gcc/x86_64-pc-linux-gnu/8.2.1/../../../../lib/crti.o /usr/lib/gcc/x86_64-pc-linux-gnu/8.2.1/crtbeginS.o -L/usr/lib/gcc/x86_64-pc-linux-gnu/8.2.1 -L/usr/lib/gcc/x86_64-pc-linux-gnu/8.2.1/../../../../lib -L/lib/../lib -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-pc-linux-gnu/8.2.1/../../.. CMakeFiles/cmTC_f7739.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-pc-linux-gnu/8.2.1/crtendS.o /usr/lib/gcc/x86_64-pc-linux-gnu/8.2.1/../../../../lib/crtn.o
-COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_f7739' '-shared-libgcc' '-mtune=generic' '-march=x86-64'
+COLLECT_GCC_OPTIONS='-v' '-rdynamic' '-o' 'cmTC_02052' '-shared-libgcc' '-mtune=generic' '-march=x86-64'
+ /usr/lib/gcc/x86_64-pc-linux-gnu/8.2.1/collect2 -plugin /usr/lib/gcc/x86_64-pc-linux-gnu/8.2.1/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-pc-linux-gnu/8.2.1/lto-wrapper -plugin-opt=-fresolution=/tmp/ccuXvBI5.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --build-id --eh-frame-hdr --hash-style=gnu -m elf_x86_64 -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -o cmTC_02052 /usr/lib/gcc/x86_64-pc-linux-gnu/8.2.1/../../../../lib/Scrt1.o /usr/lib/gcc/x86_64-pc-linux-gnu/8.2.1/../../../../lib/crti.o /usr/lib/gcc/x86_64-pc-linux-gnu/8.2.1/crtbeginS.o -L/usr/lib/gcc/x86_64-pc-linux-gnu/8.2.1 -L/usr/lib/gcc/x86_64-pc-linux-gnu/8.2.1/../../../../lib -L/lib/../lib -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-pc-linux-gnu/8.2.1/../../.. CMakeFiles/cmTC_02052.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-pc-linux-gnu/8.2.1/crtendS.o /usr/lib/gcc/x86_64-pc-linux-gnu/8.2.1/../../../../lib/crtn.o
+COLLECT_GCC_OPTIONS='-v' '-rdynamic' '-o' 'cmTC_02052' '-shared-libgcc' '-mtune=generic' '-march=x86-64'
 make[1]: 离开目录“/home/fgle/Programs/Algorithm/DataStructures/IntrodutionToAlgorithms/cmake-build-debug/CMakeFiles/CMakeTmp”
 
 
@@ -242,14 +243,14 @@ Parsed CXX implicit link information from above output:
   link line regex: [^( *|.*[/\])(ld|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\]+-)?ld|collect2)[^/\]*( |$)]
   ignore line: [Change Dir: /home/fgle/Programs/Algorithm/DataStructures/IntrodutionToAlgorithms/cmake-build-debug/CMakeFiles/CMakeTmp]
   ignore line: []
-  ignore line: [Run Build Command:"/usr/bin/make" "cmTC_f7739/fast"]
-  ignore line: [/usr/bin/make -f CMakeFiles/cmTC_f7739.dir/build.make CMakeFiles/cmTC_f7739.dir/build]
+  ignore line: [Run Build Command:"/usr/bin/make" "cmTC_02052/fast"]
+  ignore line: [/usr/bin/make -f CMakeFiles/cmTC_02052.dir/build.make CMakeFiles/cmTC_02052.dir/build]
   ignore line: [make[1]: 进入目录“/home/fgle/Programs/Algorithm/DataStructures/IntrodutionToAlgorithms/cmake-build-debug/CMakeFiles/CMakeTmp”]
-  ignore line: [Building CXX object CMakeFiles/cmTC_f7739.dir/CMakeCXXCompilerABI.cpp.o]
-  ignore line: [/usr/bin/c++     -o CMakeFiles/cmTC_f7739.dir/CMakeCXXCompilerABI.cpp.o -c /opt/clion/bin/cmake/linux/share/cmake-3.12/Modules/CMakeCXXCompilerABI.cpp]
-  ignore line: [Linking CXX executable cmTC_f7739]
-  ignore line: [/opt/clion/bin/cmake/linux/bin/cmake -E cmake_link_script CMakeFiles/cmTC_f7739.dir/link.txt --verbose=1]
-  ignore line: [/usr/bin/c++      -v CMakeFiles/cmTC_f7739.dir/CMakeCXXCompilerABI.cpp.o  -o cmTC_f7739 ]
+  ignore line: [Building CXX object CMakeFiles/cmTC_02052.dir/CMakeCXXCompilerABI.cpp.o]
+  ignore line: [/usr/bin/c++     -o CMakeFiles/cmTC_02052.dir/CMakeCXXCompilerABI.cpp.o -c /opt/clion/bin/cmake/linux/share/cmake-3.12/Modules/CMakeCXXCompilerABI.cpp]
+  ignore line: [Linking CXX executable cmTC_02052]
+  ignore line: [/opt/clion/bin/cmake/linux/bin/cmake -E cmake_link_script CMakeFiles/cmTC_02052.dir/link.txt --verbose=1]
+  ignore line: [/usr/bin/c++      -v -rdynamic CMakeFiles/cmTC_02052.dir/CMakeCXXCompilerABI.cpp.o  -o cmTC_02052 ]
   ignore line: [使用内建 specs。]
   ignore line: [COLLECT_GCC=/usr/bin/c++]
   ignore line: [COLLECT_LTO_WRAPPER=/usr/lib/gcc/x86_64-pc-linux-gnu/8.2.1/lto-wrapper]
@@ -259,13 +260,13 @@ Parsed CXX implicit link information from above output:
   ignore line: [gcc 版本 8.2.1 20180831 (GCC) ]
   ignore line: [COMPILER_PATH=/usr/lib/gcc/x86_64-pc-linux-gnu/8.2.1/:/usr/lib/gcc/x86_64-pc-linux-gnu/8.2.1/:/usr/lib/gcc/x86_64-pc-linux-gnu/:/usr/lib/gcc/x86_64-pc-linux-gnu/8.2.1/:/usr/lib/gcc/x86_64-pc-linux-gnu/]
   ignore line: [LIBRARY_PATH=/usr/lib/gcc/x86_64-pc-linux-gnu/8.2.1/:/usr/lib/gcc/x86_64-pc-linux-gnu/8.2.1/../../../../lib/:/lib/../lib/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-pc-linux-gnu/8.2.1/../../../:/lib/:/usr/lib/]
-  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_f7739' '-shared-libgcc' '-mtune=generic' '-march=x86-64']
-  link line: [ /usr/lib/gcc/x86_64-pc-linux-gnu/8.2.1/collect2 -plugin /usr/lib/gcc/x86_64-pc-linux-gnu/8.2.1/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-pc-linux-gnu/8.2.1/lto-wrapper -plugin-opt=-fresolution=/tmp/ccHkcHZ6.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --build-id --eh-frame-hdr --hash-style=gnu -m elf_x86_64 -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -o cmTC_f7739 /usr/lib/gcc/x86_64-pc-linux-gnu/8.2.1/../../../../lib/Scrt1.o /usr/lib/gcc/x86_64-pc-linux-gnu/8.2.1/../../../../lib/crti.o /usr/lib/gcc/x86_64-pc-linux-gnu/8.2.1/crtbeginS.o -L/usr/lib/gcc/x86_64-pc-linux-gnu/8.2.1 -L/usr/lib/gcc/x86_64-pc-linux-gnu/8.2.1/../../../../lib -L/lib/../lib -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-pc-linux-gnu/8.2.1/../../.. CMakeFiles/cmTC_f7739.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-pc-linux-gnu/8.2.1/crtendS.o /usr/lib/gcc/x86_64-pc-linux-gnu/8.2.1/../../../../lib/crtn.o]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-rdynamic' '-o' 'cmTC_02052' '-shared-libgcc' '-mtune=generic' '-march=x86-64']
+  link line: [ /usr/lib/gcc/x86_64-pc-linux-gnu/8.2.1/collect2 -plugin /usr/lib/gcc/x86_64-pc-linux-gnu/8.2.1/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-pc-linux-gnu/8.2.1/lto-wrapper -plugin-opt=-fresolution=/tmp/ccuXvBI5.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --build-id --eh-frame-hdr --hash-style=gnu -m elf_x86_64 -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -o cmTC_02052 /usr/lib/gcc/x86_64-pc-linux-gnu/8.2.1/../../../../lib/Scrt1.o /usr/lib/gcc/x86_64-pc-linux-gnu/8.2.1/../../../../lib/crti.o /usr/lib/gcc/x86_64-pc-linux-gnu/8.2.1/crtbeginS.o -L/usr/lib/gcc/x86_64-pc-linux-gnu/8.2.1 -L/usr/lib/gcc/x86_64-pc-linux-gnu/8.2.1/../../../../lib -L/lib/../lib -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-pc-linux-gnu/8.2.1/../../.. CMakeFiles/cmTC_02052.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-pc-linux-gnu/8.2.1/crtendS.o /usr/lib/gcc/x86_64-pc-linux-gnu/8.2.1/../../../../lib/crtn.o]
     arg [/usr/lib/gcc/x86_64-pc-linux-gnu/8.2.1/collect2] ==> ignore
     arg [-plugin] ==> ignore
     arg [/usr/lib/gcc/x86_64-pc-linux-gnu/8.2.1/liblto_plugin.so] ==> ignore
     arg [-plugin-opt=/usr/lib/gcc/x86_64-pc-linux-gnu/8.2.1/lto-wrapper] ==> ignore
-    arg [-plugin-opt=-fresolution=/tmp/ccHkcHZ6.res] ==> ignore
+    arg [-plugin-opt=-fresolution=/tmp/ccuXvBI5.res] ==> ignore
     arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
     arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
     arg [-plugin-opt=-pass-through=-lc] ==> ignore
@@ -276,11 +277,12 @@ Parsed CXX implicit link information from above output:
     arg [--hash-style=gnu] ==> ignore
     arg [-m] ==> ignore
     arg [elf_x86_64] ==> ignore
+    arg [-export-dynamic] ==> ignore
     arg [-dynamic-linker] ==> ignore
     arg [/lib64/ld-linux-x86-64.so.2] ==> ignore
     arg [-pie] ==> ignore
     arg [-o] ==> ignore
-    arg [cmTC_f7739] ==> ignore
+    arg [cmTC_02052] ==> ignore
     arg [/usr/lib/gcc/x86_64-pc-linux-gnu/8.2.1/../../../../lib/Scrt1.o] ==> ignore
     arg [/usr/lib/gcc/x86_64-pc-linux-gnu/8.2.1/../../../../lib/crti.o] ==> ignore
     arg [/usr/lib/gcc/x86_64-pc-linux-gnu/8.2.1/crtbeginS.o] ==> ignore
@@ -289,7 +291,7 @@ Parsed CXX implicit link information from above output:
     arg [-L/lib/../lib] ==> dir [/lib/../lib]
     arg [-L/usr/lib/../lib] ==> dir [/usr/lib/../lib]
     arg [-L/usr/lib/gcc/x86_64-pc-linux-gnu/8.2.1/../../..] ==> dir [/usr/lib/gcc/x86_64-pc-linux-gnu/8.2.1/../../..]
-    arg [CMakeFiles/cmTC_f7739.dir/CMakeCXXCompilerABI.cpp.o] ==> ignore
+    arg [CMakeFiles/cmTC_02052.dir/CMakeCXXCompilerABI.cpp.o] ==> ignore
     arg [-lstdc++] ==> lib [stdc++]
     arg [-lm] ==> lib [m]
     arg [-lgcc_s] ==> lib [gcc_s]
@@ -314,14 +316,14 @@ Parsed CXX implicit link information from above output:
 Detecting CXX [-std=c++2a] compiler features compiled with the following output:
 Change Dir: /home/fgle/Programs/Algorithm/DataStructures/IntrodutionToAlgorithms/cmake-build-debug/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_35b47/fast"
-/usr/bin/make -f CMakeFiles/cmTC_35b47.dir/build.make CMakeFiles/cmTC_35b47.dir/build
+Run Build Command:"/usr/bin/make" "cmTC_6ec9b/fast"
+/usr/bin/make -f CMakeFiles/cmTC_6ec9b.dir/build.make CMakeFiles/cmTC_6ec9b.dir/build
 make[1]: 进入目录“/home/fgle/Programs/Algorithm/DataStructures/IntrodutionToAlgorithms/cmake-build-debug/CMakeFiles/CMakeTmp”
-Building CXX object CMakeFiles/cmTC_35b47.dir/feature_tests.cxx.o
-/usr/bin/c++    -std=c++2a -o CMakeFiles/cmTC_35b47.dir/feature_tests.cxx.o -c /home/fgle/Programs/Algorithm/DataStructures/IntrodutionToAlgorithms/cmake-build-debug/CMakeFiles/feature_tests.cxx
-Linking CXX executable cmTC_35b47
-/opt/clion/bin/cmake/linux/bin/cmake -E cmake_link_script CMakeFiles/cmTC_35b47.dir/link.txt --verbose=1
-/usr/bin/c++       CMakeFiles/cmTC_35b47.dir/feature_tests.cxx.o  -o cmTC_35b47 
+Building CXX object CMakeFiles/cmTC_6ec9b.dir/feature_tests.cxx.o
+/usr/bin/c++    -std=c++2a -o CMakeFiles/cmTC_6ec9b.dir/feature_tests.cxx.o -c /home/fgle/Programs/Algorithm/DataStructures/IntrodutionToAlgorithms/cmake-build-debug/CMakeFiles/feature_tests.cxx
+Linking CXX executable cmTC_6ec9b
+/opt/clion/bin/cmake/linux/bin/cmake -E cmake_link_script CMakeFiles/cmTC_6ec9b.dir/link.txt --verbose=1
+/usr/bin/c++       -rdynamic CMakeFiles/cmTC_6ec9b.dir/feature_tests.cxx.o  -o cmTC_6ec9b 
 make[1]: 离开目录“/home/fgle/Programs/Algorithm/DataStructures/IntrodutionToAlgorithms/cmake-build-debug/CMakeFiles/CMakeTmp”
 
 
@@ -387,14 +389,14 @@ make[1]: 离开目录“/home/fgle/Programs/Algorithm/DataStructures/Introdution
 Detecting CXX [-std=c++17] compiler features compiled with the following output:
 Change Dir: /home/fgle/Programs/Algorithm/DataStructures/IntrodutionToAlgorithms/cmake-build-debug/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_7a81c/fast"
-/usr/bin/make -f CMakeFiles/cmTC_7a81c.dir/build.make CMakeFiles/cmTC_7a81c.dir/build
+Run Build Command:"/usr/bin/make" "cmTC_e0245/fast"
+/usr/bin/make -f CMakeFiles/cmTC_e0245.dir/build.make CMakeFiles/cmTC_e0245.dir/build
 make[1]: 进入目录“/home/fgle/Programs/Algorithm/DataStructures/IntrodutionToAlgorithms/cmake-build-debug/CMakeFiles/CMakeTmp”
-Building CXX object CMakeFiles/cmTC_7a81c.dir/feature_tests.cxx.o
-/usr/bin/c++    -std=c++17 -o CMakeFiles/cmTC_7a81c.dir/feature_tests.cxx.o -c /home/fgle/Programs/Algorithm/DataStructures/IntrodutionToAlgorithms/cmake-build-debug/CMakeFiles/feature_tests.cxx
-Linking CXX executable cmTC_7a81c
-/opt/clion/bin/cmake/linux/bin/cmake -E cmake_link_script CMakeFiles/cmTC_7a81c.dir/link.txt --verbose=1
-/usr/bin/c++       CMakeFiles/cmTC_7a81c.dir/feature_tests.cxx.o  -o cmTC_7a81c 
+Building CXX object CMakeFiles/cmTC_e0245.dir/feature_tests.cxx.o
+/usr/bin/c++    -std=c++17 -o CMakeFiles/cmTC_e0245.dir/feature_tests.cxx.o -c /home/fgle/Programs/Algorithm/DataStructures/IntrodutionToAlgorithms/cmake-build-debug/CMakeFiles/feature_tests.cxx
+Linking CXX executable cmTC_e0245
+/opt/clion/bin/cmake/linux/bin/cmake -E cmake_link_script CMakeFiles/cmTC_e0245.dir/link.txt --verbose=1
+/usr/bin/c++       -rdynamic CMakeFiles/cmTC_e0245.dir/feature_tests.cxx.o  -o cmTC_e0245 
 make[1]: 离开目录“/home/fgle/Programs/Algorithm/DataStructures/IntrodutionToAlgorithms/cmake-build-debug/CMakeFiles/CMakeTmp”
 
 
@@ -460,14 +462,14 @@ make[1]: 离开目录“/home/fgle/Programs/Algorithm/DataStructures/Introdution
 Detecting CXX [-std=c++14] compiler features compiled with the following output:
 Change Dir: /home/fgle/Programs/Algorithm/DataStructures/IntrodutionToAlgorithms/cmake-build-debug/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_06fcb/fast"
-/usr/bin/make -f CMakeFiles/cmTC_06fcb.dir/build.make CMakeFiles/cmTC_06fcb.dir/build
+Run Build Command:"/usr/bin/make" "cmTC_c8516/fast"
+/usr/bin/make -f CMakeFiles/cmTC_c8516.dir/build.make CMakeFiles/cmTC_c8516.dir/build
 make[1]: 进入目录“/home/fgle/Programs/Algorithm/DataStructures/IntrodutionToAlgorithms/cmake-build-debug/CMakeFiles/CMakeTmp”
-Building CXX object CMakeFiles/cmTC_06fcb.dir/feature_tests.cxx.o
-/usr/bin/c++    -std=c++14 -o CMakeFiles/cmTC_06fcb.dir/feature_tests.cxx.o -c /home/fgle/Programs/Algorithm/DataStructures/IntrodutionToAlgorithms/cmake-build-debug/CMakeFiles/feature_tests.cxx
-Linking CXX executable cmTC_06fcb
-/opt/clion/bin/cmake/linux/bin/cmake -E cmake_link_script CMakeFiles/cmTC_06fcb.dir/link.txt --verbose=1
-/usr/bin/c++       CMakeFiles/cmTC_06fcb.dir/feature_tests.cxx.o  -o cmTC_06fcb 
+Building CXX object CMakeFiles/cmTC_c8516.dir/feature_tests.cxx.o
+/usr/bin/c++    -std=c++14 -o CMakeFiles/cmTC_c8516.dir/feature_tests.cxx.o -c /home/fgle/Programs/Algorithm/DataStructures/IntrodutionToAlgorithms/cmake-build-debug/CMakeFiles/feature_tests.cxx
+Linking CXX executable cmTC_c8516
+/opt/clion/bin/cmake/linux/bin/cmake -E cmake_link_script CMakeFiles/cmTC_c8516.dir/link.txt --verbose=1
+/usr/bin/c++       -rdynamic CMakeFiles/cmTC_c8516.dir/feature_tests.cxx.o  -o cmTC_c8516 
 make[1]: 离开目录“/home/fgle/Programs/Algorithm/DataStructures/IntrodutionToAlgorithms/cmake-build-debug/CMakeFiles/CMakeTmp”
 
 
@@ -533,14 +535,14 @@ make[1]: 离开目录“/home/fgle/Programs/Algorithm/DataStructures/Introdution
 Detecting CXX [-std=c++11] compiler features compiled with the following output:
 Change Dir: /home/fgle/Programs/Algorithm/DataStructures/IntrodutionToAlgorithms/cmake-build-debug/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_5768b/fast"
-/usr/bin/make -f CMakeFiles/cmTC_5768b.dir/build.make CMakeFiles/cmTC_5768b.dir/build
+Run Build Command:"/usr/bin/make" "cmTC_56b4f/fast"
+/usr/bin/make -f CMakeFiles/cmTC_56b4f.dir/build.make CMakeFiles/cmTC_56b4f.dir/build
 make[1]: 进入目录“/home/fgle/Programs/Algorithm/DataStructures/IntrodutionToAlgorithms/cmake-build-debug/CMakeFiles/CMakeTmp”
-Building CXX object CMakeFiles/cmTC_5768b.dir/feature_tests.cxx.o
-/usr/bin/c++    -std=c++11 -o CMakeFiles/cmTC_5768b.dir/feature_tests.cxx.o -c /home/fgle/Programs/Algorithm/DataStructures/IntrodutionToAlgorithms/cmake-build-debug/CMakeFiles/feature_tests.cxx
-Linking CXX executable cmTC_5768b
-/opt/clion/bin/cmake/linux/bin/cmake -E cmake_link_script CMakeFiles/cmTC_5768b.dir/link.txt --verbose=1
-/usr/bin/c++       CMakeFiles/cmTC_5768b.dir/feature_tests.cxx.o  -o cmTC_5768b 
+Building CXX object CMakeFiles/cmTC_56b4f.dir/feature_tests.cxx.o
+/usr/bin/c++    -std=c++11 -o CMakeFiles/cmTC_56b4f.dir/feature_tests.cxx.o -c /home/fgle/Programs/Algorithm/DataStructures/IntrodutionToAlgorithms/cmake-build-debug/CMakeFiles/feature_tests.cxx
+Linking CXX executable cmTC_56b4f
+/opt/clion/bin/cmake/linux/bin/cmake -E cmake_link_script CMakeFiles/cmTC_56b4f.dir/link.txt --verbose=1
+/usr/bin/c++       -rdynamic CMakeFiles/cmTC_56b4f.dir/feature_tests.cxx.o  -o cmTC_56b4f 
 make[1]: 离开目录“/home/fgle/Programs/Algorithm/DataStructures/IntrodutionToAlgorithms/cmake-build-debug/CMakeFiles/CMakeTmp”
 
 
@@ -606,14 +608,14 @@ make[1]: 离开目录“/home/fgle/Programs/Algorithm/DataStructures/Introdution
 Detecting CXX [-std=c++98] compiler features compiled with the following output:
 Change Dir: /home/fgle/Programs/Algorithm/DataStructures/IntrodutionToAlgorithms/cmake-build-debug/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_30cb8/fast"
-/usr/bin/make -f CMakeFiles/cmTC_30cb8.dir/build.make CMakeFiles/cmTC_30cb8.dir/build
+Run Build Command:"/usr/bin/make" "cmTC_56b46/fast"
+/usr/bin/make -f CMakeFiles/cmTC_56b46.dir/build.make CMakeFiles/cmTC_56b46.dir/build
 make[1]: 进入目录“/home/fgle/Programs/Algorithm/DataStructures/IntrodutionToAlgorithms/cmake-build-debug/CMakeFiles/CMakeTmp”
-Building CXX object CMakeFiles/cmTC_30cb8.dir/feature_tests.cxx.o
-/usr/bin/c++    -std=c++98 -o CMakeFiles/cmTC_30cb8.dir/feature_tests.cxx.o -c /home/fgle/Programs/Algorithm/DataStructures/IntrodutionToAlgorithms/cmake-build-debug/CMakeFiles/feature_tests.cxx
-Linking CXX executable cmTC_30cb8
-/opt/clion/bin/cmake/linux/bin/cmake -E cmake_link_script CMakeFiles/cmTC_30cb8.dir/link.txt --verbose=1
-/usr/bin/c++       CMakeFiles/cmTC_30cb8.dir/feature_tests.cxx.o  -o cmTC_30cb8 
+Building CXX object CMakeFiles/cmTC_56b46.dir/feature_tests.cxx.o
+/usr/bin/c++    -std=c++98 -o CMakeFiles/cmTC_56b46.dir/feature_tests.cxx.o -c /home/fgle/Programs/Algorithm/DataStructures/IntrodutionToAlgorithms/cmake-build-debug/CMakeFiles/feature_tests.cxx
+Linking CXX executable cmTC_56b46
+/opt/clion/bin/cmake/linux/bin/cmake -E cmake_link_script CMakeFiles/cmTC_56b46.dir/link.txt --verbose=1
+/usr/bin/c++       -rdynamic CMakeFiles/cmTC_56b46.dir/feature_tests.cxx.o  -o cmTC_56b46 
 make[1]: 离开目录“/home/fgle/Programs/Algorithm/DataStructures/IntrodutionToAlgorithms/cmake-build-debug/CMakeFiles/CMakeTmp”
 
 

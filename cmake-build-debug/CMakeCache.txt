@@ -14,6 +14,12 @@
 # EXTERNAL cache entries
 ########################
 
+//Value Computed by CMake
+BiTree_BINARY_DIR:STATIC=/home/fgle/Programs/Algorithm/DataStructures/IntrodutionToAlgorithms/cmake-build-debug
+
+//Value Computed by CMake
+BiTree_SOURCE_DIR:STATIC=/home/fgle/Programs/Algorithm/DataStructures/IntrodutionToAlgorithms
+
 //Path to a program.
 CMAKE_AR:FILEPATH=/usr/bin/ar
 
@@ -206,16 +212,70 @@ CMAKE_STRIP:FILEPATH=/usr/bin/strip
 CMAKE_VERBOSE_MAKEFILE:BOOL=FALSE
 
 //Value Computed by CMake
+In_BINARY_DIR:STATIC=/home/fgle/Programs/Algorithm/DataStructures/IntrodutionToAlgorithms/cmake-build-debug
+
+//Value Computed by CMake
+In_SOURCE_DIR:STATIC=/home/fgle/Programs/Algorithm/DataStructures/IntrodutionToAlgorithms
+
+//Value Computed by CMake
+Intro_BINARY_DIR:STATIC=/home/fgle/Programs/Algorithm/DataStructures/IntrodutionToAlgorithms/cmake-build-debug
+
+//Value Computed by CMake
+Intro_SOURCE_DIR:STATIC=/home/fgle/Programs/Algorithm/DataStructures/IntrodutionToAlgorithms
+
+//Value Computed by CMake
+Introd_BINARY_DIR:STATIC=/home/fgle/Programs/Algorithm/DataStructures/IntrodutionToAlgorithms/cmake-build-debug
+
+//Value Computed by CMake
+Introd_SOURCE_DIR:STATIC=/home/fgle/Programs/Algorithm/DataStructures/IntrodutionToAlgorithms
+
+//Value Computed by CMake
+Introdu_BINARY_DIR:STATIC=/home/fgle/Programs/Algorithm/DataStructures/IntrodutionToAlgorithms/cmake-build-debug
+
+//Value Computed by CMake
+Introdu_SOURCE_DIR:STATIC=/home/fgle/Programs/Algorithm/DataStructures/IntrodutionToAlgorithms
+
+//Value Computed by CMake
+IntrodutionToAlg_BINARY_DIR:STATIC=/home/fgle/Programs/Algorithm/DataStructures/IntrodutionToAlgorithms/cmake-build-debug
+
+//Value Computed by CMake
+IntrodutionToAlg_SOURCE_DIR:STATIC=/home/fgle/Programs/Algorithm/DataStructures/IntrodutionToAlgorithms
+
+//Value Computed by CMake
+IntrodutionToAlgor_BINARY_DIR:STATIC=/home/fgle/Programs/Algorithm/DataStructures/IntrodutionToAlgorithms/cmake-build-debug
+
+//Value Computed by CMake
+IntrodutionToAlgor_SOURCE_DIR:STATIC=/home/fgle/Programs/Algorithm/DataStructures/IntrodutionToAlgorithms
+
+//Value Computed by CMake
+IntrodutionToAlgorith_BINARY_DIR:STATIC=/home/fgle/Programs/Algorithm/DataStructures/IntrodutionToAlgorithms/cmake-build-debug
+
+//Value Computed by CMake
+IntrodutionToAlgorith_SOURCE_DIR:STATIC=/home/fgle/Programs/Algorithm/DataStructures/IntrodutionToAlgorithms
+
+//Value Computed by CMake
 IntrodutionToAlgorithms_BINARY_DIR:STATIC=/home/fgle/Programs/Algorithm/DataStructures/IntrodutionToAlgorithms/cmake-build-debug
 
 //Value Computed by CMake
 IntrodutionToAlgorithms_SOURCE_DIR:STATIC=/home/fgle/Programs/Algorithm/DataStructures/IntrodutionToAlgorithms
+
+//Value Computed by CMake
+Introdution_BINARY_DIR:STATIC=/home/fgle/Programs/Algorithm/DataStructures/IntrodutionToAlgorithms/cmake-build-debug
+
+//Value Computed by CMake
+Introdution_SOURCE_DIR:STATIC=/home/fgle/Programs/Algorithm/DataStructures/IntrodutionToAlgorithms
 
 //Path to a program.
 ProcessorCount_cmd_getconf:FILEPATH=/usr/bin/getconf
 
 //Path to a program.
 ProcessorCount_cmd_sysctl:FILEPATH=/usr/bin/sysctl
+
+//Value Computed by CMake
+Project_BINARY_DIR:STATIC=/home/fgle/Programs/Algorithm/DataStructures/IntrodutionToAlgorithms/cmake-build-debug
+
+//Value Computed by CMake
+Project_SOURCE_DIR:STATIC=/home/fgle/Programs/Algorithm/DataStructures/IntrodutionToAlgorithms
 
 
 ########################
