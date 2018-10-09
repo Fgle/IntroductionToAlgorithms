@@ -1,0 +1,24 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/fgle/Programs/Algorithm/DataStructures/IntrodutionToAlgorithms/Chapter2/Chapter2.cpp
+Chapter2.h
+/home/fgle/Programs/Algorithm/DataStructures/IntrodutionToAlgorithms/Chapter2/Chapter2.h
+
+/home/fgle/Programs/Algorithm/DataStructures/IntrodutionToAlgorithms/Chapter2/Chapter2.h
+
+/home/fgle/Programs/Algorithm/DataStructures/IntrodutionToAlgorithms/main.cpp
+iostream
+-
+fstream
+-
+iterator
+-
+Chapter2/Chapter2.h
+/home/fgle/Programs/Algorithm/DataStructures/IntrodutionToAlgorithms/Chapter2/Chapter2.h
+
