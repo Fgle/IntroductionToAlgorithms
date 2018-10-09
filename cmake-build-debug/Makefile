@@ -123,6 +123,60 @@ IntrodutionToAlgorithms/fast:
 	$(MAKE) -f CMakeFiles/IntrodutionToAlgorithms.dir/build.make CMakeFiles/IntrodutionToAlgorithms.dir/build
 .PHONY : IntrodutionToAlgorithms/fast
 
+Chapter2/InsertionSort.o: Chapter2/InsertionSort.cpp.o
+
+.PHONY : Chapter2/InsertionSort.o
+
+# target to build an object file
+Chapter2/InsertionSort.cpp.o:
+	$(MAKE) -f CMakeFiles/IntrodutionToAlgorithms.dir/build.make CMakeFiles/IntrodutionToAlgorithms.dir/Chapter2/InsertionSort.cpp.o
+.PHONY : Chapter2/InsertionSort.cpp.o
+
+Chapter2/InsertionSort.i: Chapter2/InsertionSort.cpp.i
+
+.PHONY : Chapter2/InsertionSort.i
+
+# target to preprocess a source file
+Chapter2/InsertionSort.cpp.i:
+	$(MAKE) -f CMakeFiles/IntrodutionToAlgorithms.dir/build.make CMakeFiles/IntrodutionToAlgorithms.dir/Chapter2/InsertionSort.cpp.i
+.PHONY : Chapter2/InsertionSort.cpp.i
+
+Chapter2/InsertionSort.s: Chapter2/InsertionSort.cpp.s
+
+.PHONY : Chapter2/InsertionSort.s
+
+# target to generate assembly for a file
+Chapter2/InsertionSort.cpp.s:
+	$(MAKE) -f CMakeFiles/IntrodutionToAlgorithms.dir/build.make CMakeFiles/IntrodutionToAlgorithms.dir/Chapter2/InsertionSort.cpp.s
+.PHONY : Chapter2/InsertionSort.cpp.s
+
+Chapter2/Test.o: Chapter2/Test.cpp.o
+
+.PHONY : Chapter2/Test.o
+
+# target to build an object file
+Chapter2/Test.cpp.o:
+	$(MAKE) -f CMakeFiles/IntrodutionToAlgorithms.dir/build.make CMakeFiles/IntrodutionToAlgorithms.dir/Chapter2/Test.cpp.o
+.PHONY : Chapter2/Test.cpp.o
+
+Chapter2/Test.i: Chapter2/Test.cpp.i
+
+.PHONY : Chapter2/Test.i
+
+# target to preprocess a source file
+Chapter2/Test.cpp.i:
+	$(MAKE) -f CMakeFiles/IntrodutionToAlgorithms.dir/build.make CMakeFiles/IntrodutionToAlgorithms.dir/Chapter2/Test.cpp.i
+.PHONY : Chapter2/Test.cpp.i
+
+Chapter2/Test.s: Chapter2/Test.cpp.s
+
+.PHONY : Chapter2/Test.s
+
+# target to generate assembly for a file
+Chapter2/Test.cpp.s:
+	$(MAKE) -f CMakeFiles/IntrodutionToAlgorithms.dir/build.make CMakeFiles/IntrodutionToAlgorithms.dir/Chapter2/Test.cpp.s
+.PHONY : Chapter2/Test.cpp.s
+
 main.o: main.cpp.o
 
 .PHONY : main.o
@@ -159,6 +213,12 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... edit_cache"
 	@echo "... IntrodutionToAlgorithms"
+	@echo "... Chapter2/InsertionSort.o"
+	@echo "... Chapter2/InsertionSort.i"
+	@echo "... Chapter2/InsertionSort.s"
+	@echo "... Chapter2/Test.o"
+	@echo "... Chapter2/Test.i"
+	@echo "... Chapter2/Test.s"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"

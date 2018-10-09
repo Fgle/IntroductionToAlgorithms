@@ -70,17 +70,47 @@ CMakeFiles/IntrodutionToAlgorithms.dir/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/IntrodutionToAlgorithms.dir/main.cpp.s"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/fgle/Programs/Algorithm/DataStructures/IntrodutionToAlgorithms/main.cpp -o CMakeFiles/IntrodutionToAlgorithms.dir/main.cpp.s
 
+CMakeFiles/IntrodutionToAlgorithms.dir/Chapter2/InsertionSort.cpp.o: CMakeFiles/IntrodutionToAlgorithms.dir/flags.make
+CMakeFiles/IntrodutionToAlgorithms.dir/Chapter2/InsertionSort.cpp.o: ../Chapter2/InsertionSort.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/fgle/Programs/Algorithm/DataStructures/IntrodutionToAlgorithms/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/IntrodutionToAlgorithms.dir/Chapter2/InsertionSort.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/IntrodutionToAlgorithms.dir/Chapter2/InsertionSort.cpp.o -c /home/fgle/Programs/Algorithm/DataStructures/IntrodutionToAlgorithms/Chapter2/InsertionSort.cpp
+
+CMakeFiles/IntrodutionToAlgorithms.dir/Chapter2/InsertionSort.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/IntrodutionToAlgorithms.dir/Chapter2/InsertionSort.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/fgle/Programs/Algorithm/DataStructures/IntrodutionToAlgorithms/Chapter2/InsertionSort.cpp > CMakeFiles/IntrodutionToAlgorithms.dir/Chapter2/InsertionSort.cpp.i
+
+CMakeFiles/IntrodutionToAlgorithms.dir/Chapter2/InsertionSort.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/IntrodutionToAlgorithms.dir/Chapter2/InsertionSort.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/fgle/Programs/Algorithm/DataStructures/IntrodutionToAlgorithms/Chapter2/InsertionSort.cpp -o CMakeFiles/IntrodutionToAlgorithms.dir/Chapter2/InsertionSort.cpp.s
+
+CMakeFiles/IntrodutionToAlgorithms.dir/Chapter2/Test.cpp.o: CMakeFiles/IntrodutionToAlgorithms.dir/flags.make
+CMakeFiles/IntrodutionToAlgorithms.dir/Chapter2/Test.cpp.o: ../Chapter2/Test.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/fgle/Programs/Algorithm/DataStructures/IntrodutionToAlgorithms/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/IntrodutionToAlgorithms.dir/Chapter2/Test.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/IntrodutionToAlgorithms.dir/Chapter2/Test.cpp.o -c /home/fgle/Programs/Algorithm/DataStructures/IntrodutionToAlgorithms/Chapter2/Test.cpp
+
+CMakeFiles/IntrodutionToAlgorithms.dir/Chapter2/Test.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/IntrodutionToAlgorithms.dir/Chapter2/Test.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/fgle/Programs/Algorithm/DataStructures/IntrodutionToAlgorithms/Chapter2/Test.cpp > CMakeFiles/IntrodutionToAlgorithms.dir/Chapter2/Test.cpp.i
+
+CMakeFiles/IntrodutionToAlgorithms.dir/Chapter2/Test.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/IntrodutionToAlgorithms.dir/Chapter2/Test.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/fgle/Programs/Algorithm/DataStructures/IntrodutionToAlgorithms/Chapter2/Test.cpp -o CMakeFiles/IntrodutionToAlgorithms.dir/Chapter2/Test.cpp.s
+
 # Object files for target IntrodutionToAlgorithms
 IntrodutionToAlgorithms_OBJECTS = \
-"CMakeFiles/IntrodutionToAlgorithms.dir/main.cpp.o"
+"CMakeFiles/IntrodutionToAlgorithms.dir/main.cpp.o" \
+"CMakeFiles/IntrodutionToAlgorithms.dir/Chapter2/InsertionSort.cpp.o" \
+"CMakeFiles/IntrodutionToAlgorithms.dir/Chapter2/Test.cpp.o"
 
 # External object files for target IntrodutionToAlgorithms
 IntrodutionToAlgorithms_EXTERNAL_OBJECTS =
 
 IntrodutionToAlgorithms: CMakeFiles/IntrodutionToAlgorithms.dir/main.cpp.o
+IntrodutionToAlgorithms: CMakeFiles/IntrodutionToAlgorithms.dir/Chapter2/InsertionSort.cpp.o
+IntrodutionToAlgorithms: CMakeFiles/IntrodutionToAlgorithms.dir/Chapter2/Test.cpp.o
 IntrodutionToAlgorithms: CMakeFiles/IntrodutionToAlgorithms.dir/build.make
 IntrodutionToAlgorithms: CMakeFiles/IntrodutionToAlgorithms.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/fgle/Programs/Algorithm/DataStructures/IntrodutionToAlgorithms/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable IntrodutionToAlgorithms"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/fgle/Programs/Algorithm/DataStructures/IntrodutionToAlgorithms/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Linking CXX executable IntrodutionToAlgorithms"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/IntrodutionToAlgorithms.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

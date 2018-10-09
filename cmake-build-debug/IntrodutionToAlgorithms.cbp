@@ -82,6 +82,15 @@
 				</MakeCommands>
 			</Target>
 		</Build>
+		<Unit filename="/home/fgle/Programs/Algorithm/DataStructures/IntrodutionToAlgorithms/Chapter2/InsertionSort.cpp">
+			<Option target="IntrodutionToAlgorithms"/>
+		</Unit>
+		<Unit filename="/home/fgle/Programs/Algorithm/DataStructures/IntrodutionToAlgorithms/Chapter2/InsertionSort.h">
+			<Option target="IntrodutionToAlgorithms"/>
+		</Unit>
+		<Unit filename="/home/fgle/Programs/Algorithm/DataStructures/IntrodutionToAlgorithms/Chapter2/Test.cpp">
+			<Option target="IntrodutionToAlgorithms"/>
+		</Unit>
 		<Unit filename="/home/fgle/Programs/Algorithm/DataStructures/IntrodutionToAlgorithms/main.cpp">
 			<Option target="IntrodutionToAlgorithms"/>
 		</Unit>

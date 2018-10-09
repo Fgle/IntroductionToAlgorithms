@@ -1,5 +1,7 @@
 file(REMOVE_RECURSE
   "CMakeFiles/IntrodutionToAlgorithms.dir/main.cpp.o"
+  "CMakeFiles/IntrodutionToAlgorithms.dir/Chapter2/InsertionSort.cpp.o"
+  "CMakeFiles/IntrodutionToAlgorithms.dir/Chapter2/Test.cpp.o"
   "IntrodutionToAlgorithms.pdb"
   "IntrodutionToAlgorithms"
 )
