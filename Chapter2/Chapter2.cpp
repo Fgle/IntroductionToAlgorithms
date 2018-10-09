@@ -37,8 +37,8 @@ void Chapter2_1_4(const std::bitset<MaxSize> &A, const std::bitset<MaxSize> &B,
         std::bitset<MaxSize+1> &C){
     C.reset();
     for (std::size_t i = 0; i < MaxSize; i++) {
-        if(A[i] & B[i])
+        if(A[i] & B[i] || A[i] & C[i] || B[i] & C[i])
             C.set(i + 1);
-        C[i] = A[i] + B[i] + C[i];
+        C[i] = A[i] ^ B[i] ^ C[i];
     }
 }
