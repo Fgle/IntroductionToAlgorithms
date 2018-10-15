@@ -18,8 +18,8 @@ int main(int argc, char *argv[]) {
         item = *iter++;
     }
     Print(test);
-    MergeIfSort(test,0,MaxSize-1);
-    Print(test);
+    std::cout << Chapter2_4(test, 0, MaxSize-1) <<std::endl;
+//    Print(test);
 //    std::bitset<MaxSize> a(10);
 //    std::bitset<MaxSize> b(30);
 //    std::bitset<MaxSize + 1> c;

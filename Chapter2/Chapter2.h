@@ -20,4 +20,22 @@ void MergeSort(int*, int, int);
 /***2.3-2***/
 void MergeIf(int*, int, int, int);
 void MergeIfSort(int*, int, int);
+/***2.3-4***/
+void Insertion(int*, int);
+void Chapter2_3_4(int*, int);
+/***2.3-5***/
+int Chapter2_3_5(int*, int);
+int RecursiveChapter2_3_5(int*, int, int, int);
+/***2.3-6***/
+int BinarySearch(int*, int, int, int);
+void Chapter2_3_6(int*);
+/***2.3-7***/
+bool Chapter2_3_7(int*, int);
+/***思考题***/
+/***2-1***/
+/***2-2***/
+/***2-3***/
+/***2-4***/
+int MergeIns(int*, int, int, int);
+int Chapter2_4(int*, int, int);
 #endif //INTRODUTIONTOALGORITHMS_CHAPTER2_H

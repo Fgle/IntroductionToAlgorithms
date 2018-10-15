@@ -114,3 +114,103 @@ void MergeIfSort(int *A, int p, int r){
         MergeIf(A, p, q, r);
     }
 }
+
+void Insertion(int *A, int i){
+    int key = A[i];
+    int j = i - 1;
+    while (j >=0 && A[j] > key){
+        A[j + 1] = A[j];
+        j--;
+    }
+    A[j + 1] = key;
+}
+void Chapter2_3_4(int *A, int i){
+    if(i < MaxSize){
+        Insertion(A,i);
+        Chapter2_3_4(A, i + 1);
+    }
+}
+
+int Chapter2_3_5(int *A, int e){
+    int p = 0;
+    int q = 0;
+    int r = MaxSize - 1;
+    while (p != r){
+        q = (p + r)/2;
+        if(A[q] == e)
+            return q;
+        else if(A[q] > e)
+            r = q;
+        else
+            p = q + 1;
+    }
+    return -1;
+}
+
+int RecursiveChapter2_3_5(int *A, int e, int p, int r){
+    int q = (p + r)/2;
+    if(p == r)
+        return -1;
+    if(A[q] == e)
+        return q;
+    else if(A[q] > e)
+        return RecursiveChapter2_3_5(A, e, p, q);
+    else
+        return RecursiveChapter2_3_5(A, e, p + 1, r);
+}
+
+int BinarySearch(int *A, int p, int r, int e){
+    int q = 0;
+    while (p != r){
+        q = (p + r)/2;
+        if(A[q] == e)
+            return q;
+        else if(A[q] > e)
+            r = q;
+        else
+            p = q + 1;
+    }
+    return -1;
+}
+void Chapter2_3_6(int *A){
+    for (int i = 1; i < MaxSize; i++) {
+        int index = BinarySearch(A, 0, i, A[i]);
+        int key = A[i];
+        if(i != index){
+            for (int j = i - 1; j >= index; j--) {
+                A[j + 1] = A[j];
+            }
+            A[index] = key;
+        }
+    }
+}
+
+bool Chapter2_3_7(int *A, int x){
+    MergeSort(A, 0, MaxSize-1);
+    for (int i = 0; i < MaxSize - 1; i++) {
+        int s = x - A[i];
+        auto index = BinarySearch(A, i, MaxSize-1, s);
+        if (index != -1 && index != i)
+            return true;
+    }
+    return false;
+}
+
+int MergeIns(int *A, int p, int q, int r){
+    int count = 0;
+    for (int i = p; i <= q; i++)
+        for (int j = q + 1; j <= r; j++)
+            if(A[j] < A[i])
+                count++;
+    return  count;
+}
+int Chapter2_4(int *A, int p, int r){
+    int count = 0;
+    if(p < r){
+        int q = (p + r)/2;
+        count += Chapter2_4(A, p, q);
+        count += Chapter2_4(A, q + 1, r);
+        count += MergeIns(A, p, q, r);
+    }
+    return count;
+}
