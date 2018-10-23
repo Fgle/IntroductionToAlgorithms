@@ -1,11 +1,11 @@
 #include <iostream>
 #include <fstream>
 #include <iterator>
-#include "Chapter2/Chapter2.h"
+#include "Chapter4/Chapter4.h"
 
-void Print(int*);
+void Print(int*, int);
 int main(int argc, char *argv[]) {
-    std::ifstream input("/home/fgle/Programs/Algorithm/DataStructures/IntrodutionToAlgorithms/Chapter2/test");
+    std::ifstream input("/home/fgle/Programs/Algorithm/DataStructures/IntrodutionToAlgorithms/Chapter4/test");
     if(!input.is_open()){
         std::cout << "文件未打开！" << std::endl;
         return -1;
@@ -14,23 +14,18 @@ int main(int argc, char *argv[]) {
     std::istream_iterator<int> iter(input);
 
     int test[MaxSize];
+    int result[3];
     for (auto &item : test) {
         item = *iter++;
     }
-    Print(test);
-    std::cout << Chapter2_4(test, 0, MaxSize-1) <<std::endl;
-//    Print(test);
-//    std::bitset<MaxSize> a(10);
-//    std::bitset<MaxSize> b(30);
-//    std::bitset<MaxSize + 1> c;
-//    std::cout << a << std::endl;
-//    std::cout << b << std::endl;
-//    Chapter2_1_4(a, b, c);
-//    std::cout << c << std::endl;
-//    return 0;
+    Find_maximum_subarray(test, 0, MaxSize-1, result);
+    Print(result, 3);
+    Chapter4_1_5(test, result);
+    Print(result, 3);
+
 }
-void Print(int *A){
-    for (int i = 0; i < MaxSize; i++) {
+void Print(int *A, int size){
+    for (int i = 0; i < size; i++) {
         std::cout << A[i] << " ";
     }
     std::cout << std::endl;
